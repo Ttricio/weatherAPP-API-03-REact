@@ -44,12 +44,12 @@ function App() {
 				<div className='search-box'>
 					<input type='text' className='search-bar' placeholder='Search...' />
 				</div>
-				<div>
+				<div className='location-box'>
 					<div className='location'>Warsaw, POL</div>
 					<div className='date'>{dateBuilder(new Date())}</div>
 				</div>
 				<div className='weather-box'>
-					<div className='temp'>15</div>
+					<div className='temp'>15°C</div>
 					<div className='weather'> Sunny</div>
 				</div>
 			</main>
